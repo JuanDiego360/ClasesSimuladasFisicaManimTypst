@@ -1,0 +1,14 @@
+# Entornos virtuales y caches de uv
+.venv/
+__pycache__/
+*.pyc
+
+# Salidas de manim (regenerables)
+media/
+slides/
+
+# HTML generado (autocontenido, regenerable con `manim-slides convert`)
+presentacion.html
+
+# Lock de uv (se regenera con `uv sync`)
+uv.lock

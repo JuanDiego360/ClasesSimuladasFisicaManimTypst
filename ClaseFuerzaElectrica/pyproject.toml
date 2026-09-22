@@ -1,0 +1,12 @@
+[project]
+name = "clasefuerzaelectrica"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "manim-slides>=5.7.0",
+    "manim[typst]>=0.21.0",
+    "numpy>=2.4.6",
+    "pillow>=12.3.0",
+]
